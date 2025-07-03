@@ -155,10 +155,32 @@
             </form>
         </div>
     </section>
+    <section class="game-section" id="game">
+        <div class="container">
+            <h2>¡Diviértete con Snake!</h2>
+            <p class="game-instructions">Usa las flechas del teclado para mover la serpiente. Come la comida para crecer y evita chocar con las paredes o contigo mismo.</p>
+            <div class="game-container">
+                <canvas id="snakeCanvas" width="400" height="400"></canvas>
+                <div class="game-controls">
+                    <button id="startGame" class="cta-btn">Iniciar Juego</button>
+                    <p class="score">Puntaje: <span id="score">0</span></p>
+                    <div class="touch-controls">
+                        <button id="upBtn" class="direction-btn">↑</button>
+                        <div class="horizontal-controls">
+                            <button id="leftBtn" class="direction-btn">←</button>
+                            <button id="rightBtn" class="direction-btn">→</button>
+                        </div>
+                        <button id="downBtn" class="direction-btn">↓</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <p>&copy; 2024 Glouphi. All rights reserved.</p>
         </div>
     </footer>
+    <script src="game.js"></script>
 </body>
 </html> 
