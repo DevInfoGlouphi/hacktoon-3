@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: #1a2940;
+    background: #22543d;
     color: #fff;
     padding: 0.5rem 0;
 }
@@ -38,18 +38,18 @@ nav {
 }
 
 .nav-links a {
-    color: #b0c4de;
+    color: #d0f5e2;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.2s;
 }
 
 .nav-links a:hover {
-    color: #4fc3f7;
+    color: #a8e6cf;
 }
 
 .hero {
-    background: linear-gradient(120deg, #1a2940 60%, #4fc3f7 100%);
+    background: linear-gradient(120deg, #22543d 60%, #a8e6cf 100%);
     color: #fff;
     padding: 5rem 0 3rem 0;
     text-align: center;
@@ -66,8 +66,8 @@ nav {
 }
 
 .cta-btn {
-    background: #4fc3f7;
-    color: #fff;
+    background: #a8e6cf;
+    color: #22543d;
     padding: 0.9rem 2.2rem;
     border: none;
     border-radius: 30px;
@@ -79,7 +79,8 @@ nav {
 }
 
 .cta-btn:hover {
-    background: #1976d2;
+    background: #43b97f;
+    color: #fff;
 }
 
 .about, .services, .clients, .cta {
@@ -87,11 +88,11 @@ nav {
     background: #fff;
     margin-bottom: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(30, 60, 90, 0.07);
+    box-shadow: 0 2px 12px rgba(67, 185, 127, 0.07);
 }
 
 .about h2, .services h2, .clients h2, .cta h2 {
-    color: #1976d2;
+    color: #43b97f;
     margin-bottom: 1.2rem;
 }
 
@@ -102,15 +103,15 @@ nav {
 }
 
 .service-item {
-    background: #e3eaf2;
+    background: #e6f9f0;
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 1px 6px rgba(30, 60, 90, 0.05);
+    box-shadow: 0 1px 6px rgba(67, 185, 127, 0.05);
     text-align: center;
 }
 
 .service-item h3 {
-    color: #1a2940;
+    color: #22543d;
     margin-bottom: 0.7rem;
 }
 
@@ -123,8 +124,8 @@ nav {
 }
 
 .client-logo {
-    background: #b0c4de;
-    color: #1a2940;
+    background: #d0f5e2;
+    color: #22543d;
     padding: 1rem 2rem;
     border-radius: 8px;
     font-weight: bold;
@@ -139,8 +140,8 @@ nav {
 }
 
 footer {
-    background: #1a2940;
-    color: #b0c4de;
+    background: #22543d;
+    color: #d0f5e2;
     text-align: center;
     padding: 1.2rem 0;
     font-size: 1rem;
@@ -150,24 +151,24 @@ footer {
 .about-title {
     font-size: 2.3rem;
     font-weight: bold;
-    color: #1976d2;
+    color: #43b97f;
     margin-bottom: 0.7rem;
     letter-spacing: 1px;
-    text-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+    text-shadow: 0 2px 8px rgba(67, 185, 127, 0.08);
 }
 
 .highlight {
-    color: #4fc3f7;
+    color: #a8e6cf;
 }
 
 .about-identity {
-    background: #e3eaf2;
-    border-left: 5px solid #1976d2;
+    background: #e6f9f0;
+    border-left: 5px solid #43b97f;
     padding: 1rem 1.5rem;
     margin-top: 1.2rem;
     border-radius: 8px;
     font-style: italic;
-    color: #1a2940;
+    color: #22543d;
 }
 
 .contact-subtitle {
@@ -183,7 +184,7 @@ footer {
     padding: 2rem;
     background: #f4f7fa;
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(30, 60, 90, 0.1);
+    box-shadow: 0 2px 12px rgba(67, 185, 127, 0.1);
 }
 
 .form-group {
@@ -193,7 +194,7 @@ footer {
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #1a2940;
+    color: #22543d;
     font-weight: 500;
 }
 
@@ -202,7 +203,7 @@ footer {
 .form-group textarea {
     width: 100%;
     padding: 0.8rem;
-    border: 2px solid #b0c4de;
+    border: 2px solid #d0f5e2;
     border-radius: 8px;
     font-size: 1rem;
     color: #222e3a;
@@ -214,7 +215,7 @@ footer {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #4fc3f7;
+    border-color: #a8e6cf;
 }
 
 .form-group textarea {
@@ -224,7 +225,7 @@ footer {
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: #b0c4de;
+    color: #d0f5e2;
 }
 
 .contact-form .cta-btn {
