@@ -27,8 +27,8 @@ nav {
     display: none;
     background: none;
     border: none;
-    color: #b0c4de;
-    font-size: 1.8rem;
+    color: #fff;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -117,11 +117,6 @@ nav {
     border-radius: 10px;
     box-shadow: 0 1px 6px rgba(67, 185, 127, 0.05);
     text-align: center;
-    transition: transform 0.2s ease-in-out;
-}
-
-.service-item:hover {
-    transform: scale(1.05);
 }
 
 .service-item h3 {
@@ -145,11 +140,6 @@ nav {
     font-weight: bold;
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
-    transition: transform 0.2s ease-in-out;
-}
-
-.client-logo:hover {
-    transform: scale(1.05);
 }
 
 .testimonials {
@@ -253,31 +243,36 @@ footer {
 }
 
 @media (max-width: 700px) {
-    .services-list {
-        grid-template-columns: 1fr;
-    }
-    nav {
-        flex-direction: column;
-        gap: 1rem;
-        position: relative;
-    }
     .menu-toggle {
         display: block;
     }
+    
     .nav-links {
         display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #22543d;
         flex-direction: column;
-        gap: 1rem;
-        background: #1a2940;
-        padding: 1rem;
-        border-radius: 8px;
-        width: 100%;
+        padding: 1rem 0;
+        text-align: center;
     }
-    nav.nav-open .nav-links {
+
+    .nav-open .nav-links {
         display: flex;
     }
+
+    .services-list {
+        grid-template-columns: 1fr;
+    }
+
     .clients-logos {
         flex-direction: column;
         gap: 1rem;
+    }
+
+    .contact-form {
+        padding: 1rem;
     }
 }
