@@ -3,184 +3,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Glouphi provides actionable data analytics and visualizations for enterprise companies">
     <title>Glouphi - Data Analytics Agency</title>
+    <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'&gt;&lt;rect x='2' y='10' width='3' height='4' fill='%231976d2'/&gt;&lt;rect x='7' y='6' width='3' height='8' fill='%234fc3f7'/&gt;&lt;rect x='12' y='2' width='3' height='12' fill='%231976d2'/&gt;&lt;/svg&gt;">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="game.css">
 </head>
 <body>
     <header>
         <nav class="container">
             <div class="brand">Glouphi</div>
+            <button class="menu-toggle" aria-label="Toggle navigation">&#9776;</button>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#clients">Clients</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#game">Jugar</a></li>
             </ul>
         </nav>
     </header>
-    <section class="hero" id="home">
-        <div class="container">
-            <h1>Transforming Data into Strategic Decisions</h1>
-            <p>Empowering stakeholders of leading companies with actionable insights and advanced analytics.</p>
-            <a href="#contact" class="cta-btn">Request a Demo</a>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div class="container">
-            <h2 class="about-title">Sobre <span class="highlight">Glouphi</span></h2>
-            <p>Glouphi es una agencia de análisis de datos dedicada a ayudar a grandes organizaciones a desbloquear el máximo potencial de sus datos. Nuestro equipo de expertos ofrece soluciones personalizadas que impulsan el crecimiento empresarial y la innovación.</p>
-            <p class="about-identity">[Aquí irá un texto sobre la identidad corporativa de Glouphi: misión, visión, valores, cultura y compromiso con la excelencia en el análisis de datos. Este es un placeholder para desarrollar la narrativa de marca y la propuesta de valor única de la empresa.]</p>
-        </div>
-    </section>
-    <section class="services" id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-list">
-                <div class="service-item">
-                    <h3>Predictive Analytics</h3>
-                    <p>Anticipate trends and make informed decisions with our advanced predictive models.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Data Visualization</h3>
-                    <p>Transform complex data into clear, interactive dashboards and reports.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Consulting</h3>
-                    <p>Strategic guidance to optimize your data strategy and infrastructure.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Automated Reporting</h3>
-                    <p>Save time and reduce errors with automated, real-time reporting solutions.</p>
-                </div>
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <h1>Transforming Data into Strategic Decisions</h1>
+                <p>Empowering stakeholders of leading companies with actionable insights and advanced analytics.</p>
+                <a href="#contact" class="cta-btn">Request a Demo</a>
             </div>
-        </div>
-    </section>
-    <section class="clients" id="clients">
-        <div class="container">
-            <h2>Trusted by Leading Companies</h2>
-            <div class="clients-logos">
-                <div class="client-logo">
-                    <span class="client-icon">
-                        <!-- Icono DataSphere: círculo con puntos -->
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <circle cx="16" cy="16" r="14" stroke="#1976d2" stroke-width="3"/>
-                            <circle cx="16" cy="10" r="2" fill="#1976d2"/>
-                            <circle cx="22" cy="16" r="2" fill="#1976d2"/>
-                            <circle cx="16" cy="22" r="2" fill="#1976d2"/>
-                            <circle cx="10" cy="16" r="2" fill="#1976d2"/>
-                        </svg>
-                    </span>
-                    DataSphere
-                </div>
-                <div class="client-logo">
-                    <span class="client-icon">
-                        <!-- Icono BluePeak: montaña -->
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <polygon points="4,28 16,8 28,28" fill="#4fc3f7"/>
-                            <polygon points="12,20 16,14 20,20" fill="#1976d2"/>
-                        </svg>
-                    </span>
-                    BluePeak
-                </div>
-                <div class="client-logo">
-                    <span class="client-icon">
-                        <!-- Icono Quantix: gráfico de barras -->
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <rect x="6" y="18" width="4" height="8" fill="#1976d2"/>
-                            <rect x="14" y="12" width="4" height="14" fill="#4fc3f7"/>
-                            <rect x="22" y="22" width="4" height="4" fill="#1976d2"/>
-                        </svg>
-                    </span>
-                    Quantix
-                </div>
-                <div class="client-logo">
-                    <span class="client-icon">
-                        <!-- Icono NexaCorp: edificio -->
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                            <rect x="8" y="14" width="16" height="12" fill="#4fc3f7"/>
-                            <rect x="12" y="18" width="2" height="4" fill="#1976d2"/>
-                            <rect x="18" y="18" width="2" height="4" fill="#1976d2"/>
-                        </svg>
-                    </span>
-                    NexaCorp
-                </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="about-title">Sobre <span class="highlight">Glouphi</span></h2>
+                <p>Glouphi es una agencia de análisis de datos dedicada a ayudar a grandes organizaciones a desbloquear el máximo potencial de sus datos. Nuestro equipo de expertos ofrece soluciones personalizadas que impulsan el crecimiento empresarial y la innovación.</p>
+                <p class="about-identity">[Aquí irá un texto sobre la identidad corporativa de Glouphi: misión, visión, valores, cultura y compromiso con la excelencia en el análisis de datos. Este es un placeholder para desarrollar la narrativa de marca y la propuesta de valor única de la empresa.]</p>
             </div>
-            <div class="testimonials">
-                <blockquote>
-                    "Glouphi's insights have revolutionized our decision-making process."
-                    <span>- Stakeholder, Company A</span>
-                </blockquote>
-            </div>
-        </div>
-    </section>
-    <section class="cta" id="contact">
-        <div class="container">
-            <h2>¿Listo para potenciar tus datos?</h2>
-            <p class="contact-subtitle">Completa el formulario y nos pondremos en contacto contigo.</p>
-            
-            <form class="contact-form" id="contactForm">
-                <div class="form-group">
-                    <label for="name">Nombre completo</label>
-                    <input type="text" id="name" name="name" required placeholder="Tu nombre">
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">Correo electrónico</label>
-                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
-                </div>
-                
-                <div class="form-group">
-                    <label for="phone">Teléfono</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Tu número de teléfono">
-                </div>
-                
-                <div class="form-group">
-                    <label for="service">Servicio de interés</label>
-                    <select id="service" name="service" required>
-                        <option value="">Selecciona un servicio</option>
-                        <option value="predictive">Análisis Predictivo</option>
-                        <option value="visualization">Visualización de Datos</option>
-                        <option value="consulting">Consultoría</option>
-                        <option value="reporting">Reportes Automatizados</option>
-                    </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Mensaje</label>
-                    <textarea id="message" name="message" required placeholder="Cuéntanos sobre tu proyecto o necesidades"></textarea>
-                </div>
-                
-                <button type="submit" class="cta-btn">Enviar Solicitud</button>
-            </form>
-        </div>
-    </section>
-    <section class="game-section" id="game">
-        <div class="container">
-            <h2>¡Diviértete con Snake mientras te contactamos!</h2>
-            <p class="game-instructions">Usa las flechas del teclado para mover la serpiente. Come la comida para crecer y evita chocar con las paredes o contigo mismo.</p>
-            <div class="game-container">
-                <canvas id="snakeCanvas" width="400" height="400"></canvas>
-                <div class="game-controls">
-                    <button id="startGame" class="cta-btn">Iniciar Juego</button>
-                    <p class="score">Puntaje: <span id="score">0</span></p>
-                    <div class="touch-controls">
-                        <button id="upBtn" class="direction-btn">↑</button>
-                        <div class="horizontal-controls">
-                            <button id="leftBtn" class="direction-btn">←</button>
-                            <button id="rightBtn" class="direction-btn">→</button>
-                        </div>
-                        <button id="downBtn" class="direction-btn">↓</button>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-list">
+                    <div class="service-item">
+                        <h3>Predictive Analytics</h3>
+                        <p>Anticipate trends and make informed decisions with our advanced predictive models.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Data Visualization</h3>
+                        <p>Transform complex data into clear, interactive dashboards and reports.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Consulting</h3>
+                        <p>Strategic guidance to optimize your data strategy and infrastructure.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Automated Reporting</h3>
+                        <p>Save time and reduce errors with automated, real-time reporting solutions.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="clients" id="clients">
+            <div class="container">
+                <h2>Trusted by Leading Companies</h2>
+                <div class="clients-logos">
+                    <div class="client-logo">
+                        <span class="client-icon">
+                            <!-- Icono DataSphere: círculo con puntos -->
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-label="DataSphere logo">
+                                <circle cx="16" cy="16" r="14" stroke="#1976d2" stroke-width="3"/>
+                                <circle cx="16" cy="10" r="2" fill="#1976d2"/>
+                                <circle cx="22" cy="16" r="2" fill="#1976d2"/>
+                                <circle cx="16" cy="22" r="2" fill="#1976d2"/>
+                                <circle cx="10" cy="16" r="2" fill="#1976d2"/>
+                            </svg>
+                        </span>
+                        DataSphere
+                    </div>
+                    <div class="client-logo">
+                        <span class="client-icon">
+                            <!-- Icono BluePeak: montaña -->
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-label="BluePeak logo">
+                                <polygon points="4,28 16,8 28,28" fill="#4fc3f7"/>
+                                <polygon points="12,20 16,14 20,20" fill="#1976d2"/>
+                            </svg>
+                        </span>
+                        BluePeak
+                    </div>
+                    <div class="client-logo">
+                        <span class="client-icon">
+                            <!-- Icono Quantix: gráfico de barras -->
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-label="Quantix logo">
+                                <rect x="6" y="18" width="4" height="8" fill="#1976d2"/>
+                                <rect x="14" y="12" width="4" height="14" fill="#4fc3f7"/>
+                                <rect x="22" y="22" width="4" height="4" fill="#1976d2"/>
+                            </svg>
+                        </span>
+                        Quantix
+                    </div>
+                    <div class="client-logo">
+                        <span class="client-icon">
+                            <!-- Icono NexaCorp: edificio -->
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-label="NexaCorp logo">
+                                <rect x="8" y="14" width="16" height="12" fill="#4fc3f7"/>
+                                <rect x="12" y="18" width="2" height="4" fill="#1976d2"/>
+                                <rect x="18" y="18" width="2" height="4" fill="#1976d2"/>
+                            </svg>
+                        </span>
+                        NexaCorp
+                    </div>
+                </div>
+                <div class="testimonials">
+                    <blockquote>
+                        "Glouphi's insights have revolutionized our decision-making process."
+                        <span>- Stakeholder, Company A</span>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        <section class="cta" id="contact">
+            <div class="container">
+                <h2>¿Listo para potenciar tus datos?</h2>
+                <p class="contact-subtitle">Completa el formulario y nos pondremos en contacto contigo.</p>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Tu número de teléfono">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Servicio de interés</label>
+                        <select id="service" name="service" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="predictive">Análisis Predictivo</option>
+                            <option value="visualization">Visualización de Datos</option>
+                            <option value="consulting">Consultoría</option>
+                            <option value="reporting">Reportes Automatizados</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" required placeholder="Cuéntanos sobre tu proyecto o necesidades"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="cta-btn">Enviar Solicitud</button>
+                </form>
+            </div>
+        </section>
+        <section class="game-section" id="game">
+            <div class="container">
+                <h2>¡Diviértete con Snake mientras te contactamos!</h2>
+                <p class="game-instructions">Usa las flechas del teclado para mover la serpiente. Come la comida para crecer y evita chocar con las paredes o contigo mismo.</p>
+                <div class="game-container">
+                    <canvas id="snakeCanvas" width="400" height="400"></canvas>
+                    <div class="game-controls">
+                        <button id="startGame" class="cta-btn">Iniciar Juego</button>
+                        <p class="score">Puntaje: <span id="score">0</span></p>
+                        <div class="touch-controls">
+                            <button id="upBtn" class="direction-btn">↑</button>
+                            <div class="horizontal-controls">
+                                <button id="leftBtn" class="direction-btn">←</button>
+                                <button id="rightBtn" class="direction-btn">→</button>
+                            </div>
+                            <button id="downBtn" class="direction-btn">↓</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="container">
             <p>&copy; 2024 Glouphi. All rights reserved.</p>
         </div>
     </footer>
+    <!-- Scripts -->
+    <script src="menu.js"></script>
     <script src="game.js"></script>
 </body>
-</html> 
+</html>
