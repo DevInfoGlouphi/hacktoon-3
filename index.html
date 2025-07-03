@@ -116,8 +116,43 @@
     </section>
     <section class="cta" id="contact">
         <div class="container">
-            <h2>Ready to unlock the power of your data?</h2>
-            <a href="#" class="cta-btn">Contact Us</a>
+            <h2>¿Listo para potenciar tus datos?</h2>
+            <p class="contact-subtitle">Completa el formulario y nos pondremos en contacto contigo.</p>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre completo</label>
+                    <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Teléfono</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Tu número de teléfono">
+                </div>
+                
+                <div class="form-group">
+                    <label for="service">Servicio de interés</label>
+                    <select id="service" name="service" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="predictive">Análisis Predictivo</option>
+                        <option value="visualization">Visualización de Datos</option>
+                        <option value="consulting">Consultoría</option>
+                        <option value="reporting">Reportes Automatizados</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" name="message" required placeholder="Cuéntanos sobre tu proyecto o necesidades"></textarea>
+                </div>
+                
+                <button type="submit" class="cta-btn">Enviar Solicitud</button>
+            </form>
         </div>
     </section>
     <footer>
